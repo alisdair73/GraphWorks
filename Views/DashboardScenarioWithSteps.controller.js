@@ -10,13 +10,11 @@ SAPWORKS.GraphWorks.views.BaseController.extend("SAPWORKS.GraphWorks.views.Dashb
         });
     },
     onBeforeShow: function(oEvent) {
-        var oView = this.getView();
-oView.byId("DashboardScenarioWithStepsChart").invalidate()
-//        var oModel = oView.getModel();
-//var oModel = new sap.ui.model.json.JSONModel("model/graph1.json");
 
-
-        //oView.byId("DashboardScenarioWithStepsChart").setModel(oModel);
-       // oView.setModel(sap.ui.core.UIComponent.getModel());
+      //MATT: If you add this code it works
+       
+        // var oView = this.getView();
+        // var oModel = new sap.ui.model.json.JSONModel("model/graph1.json");
+        // oView.setModel(oModel);
     }
 });
