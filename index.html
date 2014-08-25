@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>GraphWorks - SAP End User Experience Monitoring</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-theme="sap_bluecrystal"
+				data-sap-ui-libs="sap.m, sap.makit, sap.viz"
+				data-sap-ui-resourceroots='{"SAPWORKS.GraphWorks": "./"}'>
+		</script>
+
+		<script>	
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer('mainComponent',{
+						height : "100%",
+						name : "SAPWORKS.GraphWorks"
+					})
+				}).placeAt("content");
+			}); 
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
