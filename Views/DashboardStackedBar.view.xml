@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="sap.m ../../UI5%20XSD/sap.m.xsd sap.ui.core ../../UI5%20XSD/sap.makit.xsd"
+ xmlns="sap.ui.core" controllerName="SAPWORKS.GraphWorks.views.BaseController">
+    <Page xmlns="sap.m" title="Response Time by Site - Scenario: NWBC_Login_Logoff" showNavButton="true" navButtonPress="navBack">
+        <content>
+            <Chart id="DashboardStackedColumn" xmlns="sap.makit" height="80%" width="100%" type="StackedColumn" showRangeSelector="false" rows="{/dashboards/dashboard2}">
+                <rows>
+                    <Row>
+                        <cells>
+                            <Column name="scenarioCategory" value="{Scenario}"/>
+                            <Column name="siteCategory" value="{Site}"/>
+                            <Column name="stepSeries" value="{Step}"/>
+                            <Column name="responseTimeValue" value="{responseTime}" type="number"/>
+                        </cells>
+                    </Row>
+                </rows>
+                <columns>
+                    <Column name="scenarioCategory" value="{Scenario}"/>
+                    <Column name="siteCategory" value="{Site}"/>
+                    <Column name="stepSeries" value="{Step}"/>
+                    <Column name="responseTimeValue" value="{responseTime}" type="number"/>
+                </columns>
+                <series>
+                    <Series displayName="Step" column="stepSeries"/>
+                </series>
+                <values>
+                    <Value expression="responseTimeValue" format="number" displayName="Response Time (ms)"/>
+                </values>
+                <categoryRegions>
+                    <Category column="scenarioCategory" displayName="Scenario"/>
+                    <Category column="siteCategory" displayName="Site"/>
+                </categoryRegions>
+            </Chart>
+        </content>
+    </Page>
+</View>   

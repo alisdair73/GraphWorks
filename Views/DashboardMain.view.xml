@@ -9,7 +9,8 @@
                               icon="img/bar_chart_icon.png" type="Active" app:viewName="Dashboard1" press="displayDashboard"/>
               <StandardListItem id="Dashboard2" title="NWBC_Login_Logoff - Scenario by Step" 
                               icon="img/bar_chart_icon.png" type="Active" app:viewName="DashboardScenarioWithSteps" press="displayDashboard"/>
-              <StandardListItem id="Dashboard3" title="Dashboard 3" icon="img/bar_chart_icon.png" type="Inactive"/>
+              <StandardListItem id="Dashboard3" title="NWBC_Login_Logoff - Scenario by Step - MAKit" 
+                              icon="img/bar_chart_icon.png" type="Active" app:viewName="DashboardStackedBar" press="displayDashboard"/>
               <StandardListItem id="Dashboard4" title="Dashboard 4" icon="img/bar_chart_icon.png" type="Inactive"/>
           </items>
       </List>

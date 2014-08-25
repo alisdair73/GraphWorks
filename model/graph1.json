@@ -20,12 +20,12 @@
         {"Scenario": "Scenario1", "Site":"Remote Site 1","Step": "Login", "responseTime": 30},
         {"Scenario": "Scenario1", "Site":"Remote Site 1","Step": "SM50", "responseTime": 90},
         {"Scenario": "Scenario1", "Site":"Remote Site 1","Step": "Logout", "responseTime": 17},
-        {"Scenario": "Scenario2", "Site":"Local Site 1","Step": "Login", "responseTime": 10},
-        {"Scenario": "Scenario2", "Site":"Local Site 1","Step": "SM50", "responseTime": 21},
-        {"Scenario": "Scenario2", "Site":"Local Site 1","Step": "Logout", "responseTime": 12},
-        {"Scenario": "Scenario2", "Site":"Remote Site 1","Step": "Login", "responseTime": 30},
-        {"Scenario": "Scenario2", "Site":"Remote Site 1","Step": "SM50", "responseTime": 90},
-        {"Scenario": "Scenario2", "Site":"Remote Site 1","Step": "Logout", "responseTime": 17}       
+        {"Scenario": "Scenario2", "Site":"Local Site 1","Step": "Login", "responseTime": 100},
+        {"Scenario": "Scenario2", "Site":"Local Site 1","Step": "SM50", "responseTime": 221},
+        {"Scenario": "Scenario2", "Site":"Local Site 1","Step": "Logout", "responseTime": 142},
+        {"Scenario": "Scenario2", "Site":"Remote Site 1","Step": "Login", "responseTime": 230},
+        {"Scenario": "Scenario2", "Site":"Remote Site 1","Step": "SM50", "responseTime": 190},
+        {"Scenario": "Scenario2", "Site":"Remote Site 1","Step": "Logout", "responseTime": 117}       
 ]}
 }
 
