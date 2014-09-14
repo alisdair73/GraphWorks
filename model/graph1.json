@@ -1,17 +1,17 @@
 { "dashboards" : 
 { "dashboard1" : [ 
-        { "date": "12/08/2014", "time": "15:00", "Site" : "Rosebery", "responseTime" : 120 }, 
-        { "date": "12/08/2014", "time": "15:00", "Site" : "Golden Grove" ,"responseTime" : 80 }, 
-        { "date": "12/08/2014", "time": "15:15", "Site" : "Rosebery" ,"responseTime" : 100 },
-        { "date": "12/08/2014", "time": "15:15", "Site" : "Golden Grove" ,"responseTime" : 10 },
-        { "date": "12/08/2014", "time": "15:30", "Site" : "Rosebery" ,"responseTime" : 300 },
-        { "date": "12/08/2014", "time": "15:30", "Site" : "Golden Grove" ,"responseTime" : 30 },
-        { "date": "12/08/2014", "time": "15:45", "Site" : "Rosebery" ,"responseTime" : 90  },
-        { "date": "12/08/2014", "time": "15:45", "Site" : "Golden Grove" ,"responseTime" : 90  },
-        { "date": "12/08/2014", "time": "16:00", "Site" : "Rosebery" ,"responseTime" : 600 },
-        { "date": "12/08/2014", "time": "16:00", "Site" : "Golden Grove" ,"responseTime" : 200 },
-        { "date": "12/08/2014", "time": "16:15", "Site" : "Rosebery" ,"responseTime" : 120 },  
-        { "date": "12/08/2014", "time": "16:15", "Site" : "Golden Grove" ,"responseTime" : 180 }                              
+        { "date": "12/08/2014", "time": "15:00", "Site" : "Robot Site 1", "responseTime" : 120 }, 
+        { "date": "12/08/2014", "time": "15:00", "Site" : "Robot Site 2" ,"responseTime" : 80 }, 
+        { "date": "12/08/2014", "time": "15:15", "Site" : "Robot Site 1" ,"responseTime" : 100 },
+        { "date": "12/08/2014", "time": "15:15", "Site" : "Robot Site 2" ,"responseTime" : 10 },
+        { "date": "12/08/2014", "time": "15:30", "Site" : "Robot Site 1" ,"responseTime" : 300 },
+        { "date": "12/08/2014", "time": "15:30", "Site" : "Robot Site 2" ,"responseTime" : 30 },
+        { "date": "12/08/2014", "time": "15:45", "Site" : "Robot Site 1" ,"responseTime" : 90  },
+        { "date": "12/08/2014", "time": "15:45", "Site" : "Robot Site 2" ,"responseTime" : 90  },
+        { "date": "12/08/2014", "time": "16:00", "Site" : "Robot Site 1" ,"responseTime" : 600 },
+        { "date": "12/08/2014", "time": "16:00", "Site" : "Robot Site 2" ,"responseTime" : 200 },
+        { "date": "12/08/2014", "time": "16:15", "Site" : "Robot Site 1" ,"responseTime" : 120 },  
+        { "date": "12/08/2014", "time": "16:15", "Site" : "Robot Site 2" ,"responseTime" : 180 }                              
 ],
  "dashboard2" : [
         {"Scenario": "Scenario1", "Site":"Local Site 1","Step": "Login", "responseTime": 10},

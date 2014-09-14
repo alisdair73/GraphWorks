@@ -2,16 +2,17 @@
 <View xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="sap.ui.core ../../UI5%20XSD/sap.m.xsd" xmlns="sap.ui.core" controllerName="SAPWORKS.GraphWorks.views.DashboardMain"
  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
-    <Page xmlns="sap.m" id="mainPage" title="GraphWorks - SAP End User Experience Monitoring">
+    <Page xmlns="sap.m" id="mainPage" title="SAPWORKS GraphWorks (c) - SAP End User Experience Monitoring">
       <List>
           <items>
-              <StandardListItem id="Dashboard1" title="NWBC_Login_Logoff - response by Site" 
+              <StandardListItem id="Dashboard1" title="NWBC_Login_Logoff - Response by Site" 
                               icon="img/bar_chart_icon.png" type="Active" app:viewName="Dashboard1" press="displayDashboard"/>
               <StandardListItem id="Dashboard2" title="NWBC_Login_Logoff - Scenario by Step" 
                               icon="img/bar_chart_icon.png" type="Active" app:viewName="DashboardScenarioWithSteps" press="displayDashboard"/>
-              <StandardListItem id="Dashboard3" title="NWBC_Login_Logoff - Scenario by Step - MAKit" 
+              <StandardListItem id="Dashboard3" title="NWBC_Login_Logoff - Total Scenario time by Step" 
                               icon="img/bar_chart_icon.png" type="Active" app:viewName="DashboardStackedBar" press="displayDashboard"/>
-              <StandardListItem id="Dashboard4" title="Dashboard 4" icon="img/bar_chart_icon.png" type="Inactive"/>
+              <StandardListItem id="Dashboard4" title="NWBC_Login_Logoff - Scenario/Step Heat Map" 
+                              icon="img/bar_chart_icon.png" type="Active" app:viewName="DashboardScenarioHeatMap" press="displayDashboard"/>
           </items>
       </List>
   </Page>    
